@@ -1,0 +1,29 @@
+# LaTeX build artifacts
+.aux/
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+
+# Editor backups and system files
+*~
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Keep VS Code config, ignore temporary files
+!.vscode/
+.vscode/*.cache
+.vscode/*.tmp

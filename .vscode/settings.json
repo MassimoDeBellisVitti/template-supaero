@@ -1,0 +1,29 @@
+{
+  "latex-workshop.latex.outDir": ".aux",
+  "latex-workshop.latex.recipe.default": "latexmk",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": ["latexmk"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-output-directory=.aux",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.view.pdf.viewer": "tab",
+  "files.exclude": {
+    "**/.aux": true,
+    "**/*.synctex.gz": true
+  }
+}
