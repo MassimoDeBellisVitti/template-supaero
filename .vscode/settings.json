@@ -1,5 +1,4 @@
 {
-  "latex-workshop.latex.outDir": ".aux",
   "latex-workshop.latex.recipe.default": "latexmk",
   "latex-workshop.latex.recipes": [
     {
@@ -16,7 +15,7 @@
         "-interaction=nonstopmode",
         "-file-line-error",
         "-pdf",
-        "-output-directory=.aux",
+        "-aux-directory=.aux",
         "%DOC%"
       ]
     }

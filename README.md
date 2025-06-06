@@ -104,3 +104,5 @@ The included `.gitignore` excludes all LaTeX build artifacts and editor backup f
 
 If you don’t want to version the PDF, just add `*.pdf` to `.gitignore`.
 
+cmd + opt + J tex -> pdf
+cmd + click   pdf -> tex
